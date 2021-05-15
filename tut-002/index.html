@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni projem</title>
+</head>
+<body>
+    <div>
+        <h1>Yeni Form</h1><br>
+        <h3><b>Bu benim kendimi geliştirmem için yaptığım alıştırma ödevim-1</b></h3>
+    </div>
+    <form>
+        <div>
+            <label for="username">
+                <i>
+                    <b>Kullanıcı adı</b>
+                </i>
+            </label>
+            <input type="text" autofocus id="username" required /><br>
+
+            <label for="password">
+                <i>
+                    <b>Şifre</b>
+                </i>
+            </label>
+            <input type="password" id="password" required /><br>
+
+            <label for="email">
+                <i>
+                    <b>E-mail</b>
+                </i>
+            </label> 
+            <input type="email" id="email" required /><br>
+
+            <label for="number">
+                <i>
+                    <b>Telefon numaranız</b>
+                </i>
+            </label>
+            <input type="tel" id="number" required /><br>
+        </div>
+
+        <div>
+            <label for="date">
+                <i>
+                    <b>Doğum tarihiniz</b>
+                </i>
+            </label>
+            <input type="date" id="date" required />
+        </div>
+
+        <div>
+            <label for="man">
+                <i>
+                    <b>Erkek</b>
+                </i>
+            </label>
+            <input type="radio" id="man" value="erkek" name="gender" />
+            <label for="woman">
+                <i>
+                    <b>Kadın</b>
+                </i>
+            </label>
+            <input type="radio" id="woman" value="kadin" name="gender" />
+        </div>
+
+        <div>
+            <label for="sozlesme">
+                <i>
+                    <b>Kullanıcı sözleşmesini kabul ediyorum</b>
+                </i>
+            </label>
+            <input type="checkbox" id="sozlesme" required />
+        </div>
+
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+</body>
+</html>
