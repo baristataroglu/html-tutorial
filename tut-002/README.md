@@ -1,5 +1,5 @@
 # HTML ÖDEVI 
-    ## _Yaptığım Ödev hakkında tut-002_
+    ## _Yaptığım ödev hakkında tut-002_
 
     * İlk yaptığım şey projeme başlık eklemek oldu, daha sonra body kısmına geçtim.
     * Oluşturduğum formun başında görünmesini istediğim bazı başlıklar attım ve onları div içerisine aldım.
