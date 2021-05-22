@@ -7,9 +7,3 @@ h2#h2-1 {
 .class-deneme {
     color: purple;
 }
-h3, p, div {
-    color: black;
-}
-p > b {
-    color: brown;
-}
